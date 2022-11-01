@@ -24,30 +24,38 @@ limitations under the License.
 
 > Laplace distribution.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-base-dists-laplace
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var laplace = require( '@stdlib/stats-base-dists-laplace' );
+laplace = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var laplace = require( 'path/to/vendor/umd/stats-base-dists-laplace/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.laplace;
+})();
+</script>
 ```
 
 #### laplace
@@ -128,11 +136,21 @@ var y = dist.cdf( 0.5 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var laplace = require( '@stdlib/stats-base-dists-laplace' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 console.log( objectKeys( laplace ) );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -220,35 +238,35 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/laplace/ctor]: https://github.com/stdlib-js/stats-base-dists-laplace-ctor
+[@stdlib/stats/base/dists/laplace/ctor]: https://github.com/stdlib-js/stats-base-dists-laplace-ctor/tree/umd
 
-[@stdlib/stats/base/dists/laplace/entropy]: https://github.com/stdlib-js/stats-base-dists-laplace-entropy
+[@stdlib/stats/base/dists/laplace/entropy]: https://github.com/stdlib-js/stats-base-dists-laplace-entropy/tree/umd
 
-[@stdlib/stats/base/dists/laplace/kurtosis]: https://github.com/stdlib-js/stats-base-dists-laplace-kurtosis
+[@stdlib/stats/base/dists/laplace/kurtosis]: https://github.com/stdlib-js/stats-base-dists-laplace-kurtosis/tree/umd
 
-[@stdlib/stats/base/dists/laplace/mean]: https://github.com/stdlib-js/stats-base-dists-laplace-mean
+[@stdlib/stats/base/dists/laplace/mean]: https://github.com/stdlib-js/stats-base-dists-laplace-mean/tree/umd
 
-[@stdlib/stats/base/dists/laplace/median]: https://github.com/stdlib-js/stats-base-dists-laplace-median
+[@stdlib/stats/base/dists/laplace/median]: https://github.com/stdlib-js/stats-base-dists-laplace-median/tree/umd
 
-[@stdlib/stats/base/dists/laplace/mode]: https://github.com/stdlib-js/stats-base-dists-laplace-mode
+[@stdlib/stats/base/dists/laplace/mode]: https://github.com/stdlib-js/stats-base-dists-laplace-mode/tree/umd
 
-[@stdlib/stats/base/dists/laplace/skewness]: https://github.com/stdlib-js/stats-base-dists-laplace-skewness
+[@stdlib/stats/base/dists/laplace/skewness]: https://github.com/stdlib-js/stats-base-dists-laplace-skewness/tree/umd
 
-[@stdlib/stats/base/dists/laplace/stdev]: https://github.com/stdlib-js/stats-base-dists-laplace-stdev
+[@stdlib/stats/base/dists/laplace/stdev]: https://github.com/stdlib-js/stats-base-dists-laplace-stdev/tree/umd
 
-[@stdlib/stats/base/dists/laplace/variance]: https://github.com/stdlib-js/stats-base-dists-laplace-variance
+[@stdlib/stats/base/dists/laplace/variance]: https://github.com/stdlib-js/stats-base-dists-laplace-variance/tree/umd
 
-[@stdlib/stats/base/dists/laplace/cdf]: https://github.com/stdlib-js/stats-base-dists-laplace-cdf
+[@stdlib/stats/base/dists/laplace/cdf]: https://github.com/stdlib-js/stats-base-dists-laplace-cdf/tree/umd
 
-[@stdlib/stats/base/dists/laplace/logcdf]: https://github.com/stdlib-js/stats-base-dists-laplace-logcdf
+[@stdlib/stats/base/dists/laplace/logcdf]: https://github.com/stdlib-js/stats-base-dists-laplace-logcdf/tree/umd
 
-[@stdlib/stats/base/dists/laplace/logpdf]: https://github.com/stdlib-js/stats-base-dists-laplace-logpdf
+[@stdlib/stats/base/dists/laplace/logpdf]: https://github.com/stdlib-js/stats-base-dists-laplace-logpdf/tree/umd
 
-[@stdlib/stats/base/dists/laplace/mgf]: https://github.com/stdlib-js/stats-base-dists-laplace-mgf
+[@stdlib/stats/base/dists/laplace/mgf]: https://github.com/stdlib-js/stats-base-dists-laplace-mgf/tree/umd
 
-[@stdlib/stats/base/dists/laplace/pdf]: https://github.com/stdlib-js/stats-base-dists-laplace-pdf
+[@stdlib/stats/base/dists/laplace/pdf]: https://github.com/stdlib-js/stats-base-dists-laplace-pdf/tree/umd
 
-[@stdlib/stats/base/dists/laplace/quantile]: https://github.com/stdlib-js/stats-base-dists-laplace-quantile
+[@stdlib/stats/base/dists/laplace/quantile]: https://github.com/stdlib-js/stats-base-dists-laplace-quantile/tree/umd
 
 <!-- </toc-links> -->
 
