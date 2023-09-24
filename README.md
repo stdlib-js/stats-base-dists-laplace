@@ -18,26 +18,47 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # Laplace
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Laplace distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-laplace
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { Laplace, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@esm/index.mjs';
+var laplace = require( '@stdlib/stats-base-dists-laplace' );
 ```
 
 #### laplace
@@ -98,7 +119,7 @@ The namespace contains a constructor function for creating a [Laplace][laplace-d
 <!-- </toc> -->
 
 ```javascript
-var Laplace = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace' ).Laplace;
+var Laplace = require( '@stdlib/stats-base-dists-laplace' ).Laplace;
 
 var dist = new Laplace( 2.0, 4.0 );
 
@@ -118,20 +139,11 @@ var y = dist.cdf( 0.5 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var laplace = require( '@stdlib/stats-base-dists-laplace' );
 
 console.log( objectKeys( laplace ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -155,7 +167,7 @@ console.log( objectKeys( laplace ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -185,8 +197,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-dists-laplace.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-dists-laplace
 
-[test-image]: https://github.com/stdlib-js/stats-base-dists-laplace/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-base-dists-laplace/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/stats-base-dists-laplace/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/stats-base-dists-laplace/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-dists-laplace/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dists-laplace?branch=main
@@ -219,35 +231,35 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/laplace/ctor]: https://github.com/stdlib-js/stats-base-dists-laplace-ctor/tree/esm
+[@stdlib/stats/base/dists/laplace/ctor]: https://github.com/stdlib-js/stats-base-dists-laplace-ctor
 
-[@stdlib/stats/base/dists/laplace/entropy]: https://github.com/stdlib-js/stats-base-dists-laplace-entropy/tree/esm
+[@stdlib/stats/base/dists/laplace/entropy]: https://github.com/stdlib-js/stats-base-dists-laplace-entropy
 
-[@stdlib/stats/base/dists/laplace/kurtosis]: https://github.com/stdlib-js/stats-base-dists-laplace-kurtosis/tree/esm
+[@stdlib/stats/base/dists/laplace/kurtosis]: https://github.com/stdlib-js/stats-base-dists-laplace-kurtosis
 
-[@stdlib/stats/base/dists/laplace/mean]: https://github.com/stdlib-js/stats-base-dists-laplace-mean/tree/esm
+[@stdlib/stats/base/dists/laplace/mean]: https://github.com/stdlib-js/stats-base-dists-laplace-mean
 
-[@stdlib/stats/base/dists/laplace/median]: https://github.com/stdlib-js/stats-base-dists-laplace-median/tree/esm
+[@stdlib/stats/base/dists/laplace/median]: https://github.com/stdlib-js/stats-base-dists-laplace-median
 
-[@stdlib/stats/base/dists/laplace/mode]: https://github.com/stdlib-js/stats-base-dists-laplace-mode/tree/esm
+[@stdlib/stats/base/dists/laplace/mode]: https://github.com/stdlib-js/stats-base-dists-laplace-mode
 
-[@stdlib/stats/base/dists/laplace/skewness]: https://github.com/stdlib-js/stats-base-dists-laplace-skewness/tree/esm
+[@stdlib/stats/base/dists/laplace/skewness]: https://github.com/stdlib-js/stats-base-dists-laplace-skewness
 
-[@stdlib/stats/base/dists/laplace/stdev]: https://github.com/stdlib-js/stats-base-dists-laplace-stdev/tree/esm
+[@stdlib/stats/base/dists/laplace/stdev]: https://github.com/stdlib-js/stats-base-dists-laplace-stdev
 
-[@stdlib/stats/base/dists/laplace/variance]: https://github.com/stdlib-js/stats-base-dists-laplace-variance/tree/esm
+[@stdlib/stats/base/dists/laplace/variance]: https://github.com/stdlib-js/stats-base-dists-laplace-variance
 
-[@stdlib/stats/base/dists/laplace/cdf]: https://github.com/stdlib-js/stats-base-dists-laplace-cdf/tree/esm
+[@stdlib/stats/base/dists/laplace/cdf]: https://github.com/stdlib-js/stats-base-dists-laplace-cdf
 
-[@stdlib/stats/base/dists/laplace/logcdf]: https://github.com/stdlib-js/stats-base-dists-laplace-logcdf/tree/esm
+[@stdlib/stats/base/dists/laplace/logcdf]: https://github.com/stdlib-js/stats-base-dists-laplace-logcdf
 
-[@stdlib/stats/base/dists/laplace/logpdf]: https://github.com/stdlib-js/stats-base-dists-laplace-logpdf/tree/esm
+[@stdlib/stats/base/dists/laplace/logpdf]: https://github.com/stdlib-js/stats-base-dists-laplace-logpdf
 
-[@stdlib/stats/base/dists/laplace/mgf]: https://github.com/stdlib-js/stats-base-dists-laplace-mgf/tree/esm
+[@stdlib/stats/base/dists/laplace/mgf]: https://github.com/stdlib-js/stats-base-dists-laplace-mgf
 
-[@stdlib/stats/base/dists/laplace/pdf]: https://github.com/stdlib-js/stats-base-dists-laplace-pdf/tree/esm
+[@stdlib/stats/base/dists/laplace/pdf]: https://github.com/stdlib-js/stats-base-dists-laplace-pdf
 
-[@stdlib/stats/base/dists/laplace/quantile]: https://github.com/stdlib-js/stats-base-dists-laplace-quantile/tree/esm
+[@stdlib/stats/base/dists/laplace/quantile]: https://github.com/stdlib-js/stats-base-dists-laplace-quantile
 
 <!-- </toc-links> -->
 
