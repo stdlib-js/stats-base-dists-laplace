@@ -4,23 +4,60 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-01)
+## Unreleased (2024-11-11)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="stats-base-dists-laplace-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#1633](https://github.com/stdlib-js/stdlib/issues/1633)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#1633](https://github.com/stdlib-js/stdlib/issues/1633)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
+-   Pratyush
 
 </section>
 
@@ -32,6 +69,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`19c8688`](https://github.com/stdlib-js/stdlib/commit/19c868816d201337c4cb77683c2ff0a306b81e95) - **docs:** improve README examples of `stats/base/dists/laplace` namespace [(#1875)](https://github.com/stdlib-js/stdlib/pull/1875) _(by Pratyush, Philipp Burckhardt)_
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 
 </details>
