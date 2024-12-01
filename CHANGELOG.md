@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-11)
+## Unreleased (2024-12-01)
 
 <section class="packages">
 
@@ -57,7 +57,7 @@ This release closes the following issue:
 A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
--   Pratyush
+-   Pratyush Kumar Chouhan
 
 </section>
 
@@ -69,7 +69,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
--   [`19c8688`](https://github.com/stdlib-js/stdlib/commit/19c868816d201337c4cb77683c2ff0a306b81e95) - **docs:** improve README examples of `stats/base/dists/laplace` namespace [(#1875)](https://github.com/stdlib-js/stdlib/pull/1875) _(by Pratyush, Philipp Burckhardt)_
+-   [`19c8688`](https://github.com/stdlib-js/stdlib/commit/19c868816d201337c4cb77683c2ff0a306b81e95) - **docs:** improve README examples of `stats/base/dists/laplace` namespace [(#1875)](https://github.com/stdlib-js/stdlib/pull/1875) _(by Pratyush Kumar Chouhan, Philipp Burckhardt)_
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 
 </details>
