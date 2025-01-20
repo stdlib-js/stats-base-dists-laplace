@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-01-20)
 
 <section class="packages">
 
@@ -34,6 +34,210 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="stats-base-dists-laplace-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/entropy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3c0ff2c`](https://github.com/stdlib-js/stdlib/commit/3c0ff2cdae8f78f99cdf09db8dc150f3f0e2cd67) - add C implementation  for `stats/base/dists/laplace/entropy` [(#4025)](https://github.com/stdlib-js/stdlib/pull/4025)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3709](https://github.com/stdlib-js/stdlib/issues/3709)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/kurtosis)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c12422c`](https://github.com/stdlib-js/stdlib/commit/c12422c2728f2bace8f06dee87ab9de18e63588b) - add C implementation for `stats/base/dists/laplace/kurtosis` [(#4188)](https://github.com/stdlib-js/stdlib/pull/4188)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3710](https://github.com/stdlib-js/stdlib/issues/3710)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b275b6f`](https://github.com/stdlib-js/stdlib/commit/b275b6fed269c1f796fae358712ddbbc901bb41d) - add C implementation for `stats/base/dists/laplace/mode` [(#4138)](https://github.com/stdlib-js/stdlib/pull/4138)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3716](https://github.com/stdlib-js/stdlib/issues/3716)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`40df378`](https://github.com/stdlib-js/stdlib/commit/40df378b1ed62d15394f97d834db3eea21fea4a0) - add C implementation for `stats/base/dists/laplace/skewness` [(#4187)](https://github.com/stdlib-js/stdlib/pull/4187)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3719](https://github.com/stdlib-js/stdlib/issues/3719)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`15f2f56`](https://github.com/stdlib-js/stdlib/commit/15f2f56fad4de8fe512738eea818737426c2771c) - add C implementation for `stats/base/dists/laplace/stdev` [(#4158)](https://github.com/stdlib-js/stdlib/pull/4158)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3720](https://github.com/stdlib-js/stdlib/issues/3720)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2b67875`](https://github.com/stdlib-js/stdlib/commit/2b67875eca43c4846a5b048971eab7bf898216e9) - add C implementation for `stats/base/dists/laplace/variance` [(#3948)](https://github.com/stdlib-js/stdlib/pull/3948)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3721](https://github.com/stdlib-js/stdlib/issues/3721)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -42,9 +246,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 7 issues were closed in this release:
 
-[#1633](https://github.com/stdlib-js/stdlib/issues/1633)
+[#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3709](https://github.com/stdlib-js/stdlib/issues/3709), [#3710](https://github.com/stdlib-js/stdlib/issues/3710), [#3716](https://github.com/stdlib-js/stdlib/issues/3716), [#3719](https://github.com/stdlib-js/stdlib/issues/3719), [#3720](https://github.com/stdlib-js/stdlib/issues/3720), [#3721](https://github.com/stdlib-js/stdlib/issues/3721)
 
 </section>
 
@@ -54,10 +258,12 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Philipp Burckhardt
 -   Pratyush Kumar Chouhan
+-   Vivek Maurya
 
 </section>
 
@@ -69,6 +275,16 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f3df15f`](https://github.com/stdlib-js/stdlib/commit/f3df15f118d563573f27d2d2b96e35b842f05a18) - **chore:** directly draw from the desired distribution instead of adding constants _(by Philipp Burckhardt)_
+-   [`c4c4ed8`](https://github.com/stdlib-js/stdlib/commit/c4c4ed8abb88be48be587bcc9b9235e10de86aa4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`15f2f56`](https://github.com/stdlib-js/stdlib/commit/15f2f56fad4de8fe512738eea818737426c2771c) - **feat:** add C implementation for `stats/base/dists/laplace/stdev` [(#4158)](https://github.com/stdlib-js/stdlib/pull/4158) _(by Vivek Maurya, Philipp Burckhardt)_
+-   [`b275b6f`](https://github.com/stdlib-js/stdlib/commit/b275b6fed269c1f796fae358712ddbbc901bb41d) - **feat:** add C implementation for `stats/base/dists/laplace/mode` [(#4138)](https://github.com/stdlib-js/stdlib/pull/4138) _(by Vivek Maurya, Philipp Burckhardt)_
+-   [`40df378`](https://github.com/stdlib-js/stdlib/commit/40df378b1ed62d15394f97d834db3eea21fea4a0) - **feat:** add C implementation for `stats/base/dists/laplace/skewness` [(#4187)](https://github.com/stdlib-js/stdlib/pull/4187) _(by Vivek Maurya, Philipp Burckhardt)_
+-   [`c12422c`](https://github.com/stdlib-js/stdlib/commit/c12422c2728f2bace8f06dee87ab9de18e63588b) - **feat:** add C implementation for `stats/base/dists/laplace/kurtosis` [(#4188)](https://github.com/stdlib-js/stdlib/pull/4188) _(by Vivek Maurya)_
+-   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`a72a67a`](https://github.com/stdlib-js/stdlib/commit/a72a67a667bcf694e5f8f2bc3c8e62714e5832bc) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`3c0ff2c`](https://github.com/stdlib-js/stdlib/commit/3c0ff2cdae8f78f99cdf09db8dc150f3f0e2cd67) - **feat:** add C implementation  for `stats/base/dists/laplace/entropy` [(#4025)](https://github.com/stdlib-js/stdlib/pull/4025) _(by Aayush Khanna, Philipp Burckhardt)_
+-   [`2b67875`](https://github.com/stdlib-js/stdlib/commit/2b67875eca43c4846a5b048971eab7bf898216e9) - **feat:** add C implementation for `stats/base/dists/laplace/variance` [(#3948)](https://github.com/stdlib-js/stdlib/pull/3948) _(by Aayush Khanna, stdlib-bot)_
 -   [`19c8688`](https://github.com/stdlib-js/stdlib/commit/19c868816d201337c4cb77683c2ff0a306b81e95) - **docs:** improve README examples of `stats/base/dists/laplace` namespace [(#1875)](https://github.com/stdlib-js/stdlib/pull/1875) _(by Pratyush Kumar Chouhan, Philipp Burckhardt)_
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 
