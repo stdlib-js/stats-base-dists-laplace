@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
+## Unreleased (2025-03-31)
 
 <section class="packages">
 
@@ -23,6 +23,54 @@
 This release closes the following issue:
 
 [#1633](https://github.com/stdlib-js/stdlib/issues/1633)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-cdf-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/cdf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4976](https://github.com/stdlib-js/stdlib/issues/4976)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-ctor-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/ctor)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4976](https://github.com/stdlib-js/stdlib/issues/4976)
 
 </section>
 
@@ -54,9 +102,9 @@ This release closes the following issue:
 
 ##### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3709](https://github.com/stdlib-js/stdlib/issues/3709)
+[#3709](https://github.com/stdlib-js/stdlib/issues/3709), [#4976](https://github.com/stdlib-js/stdlib/issues/4976)
 
 </section>
 
@@ -88,9 +136,129 @@ This release closes the following issue:
 
 ##### Closed Issues
 
+A total of 2 issues were closed in this release:
+
+[#3710](https://github.com/stdlib-js/stdlib/issues/3710), [#4976](https://github.com/stdlib-js/stdlib/issues/4976)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-logcdf-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/logcdf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
 This release closes the following issue:
 
-[#3710](https://github.com/stdlib-js/stdlib/issues/3710)
+[#4976](https://github.com/stdlib-js/stdlib/issues/4976)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-logpdf-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/logpdf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4976](https://github.com/stdlib-js/stdlib/issues/4976)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/mean)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4976](https://github.com/stdlib-js/stdlib/issues/4976)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-median-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/median)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4976](https://github.com/stdlib-js/stdlib/issues/4976)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-mgf-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/mgf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4976](https://github.com/stdlib-js/stdlib/issues/4976)
 
 </section>
 
@@ -122,9 +290,57 @@ This release closes the following issue:
 
 ##### Closed Issues
 
+A total of 2 issues were closed in this release:
+
+[#3716](https://github.com/stdlib-js/stdlib/issues/3716), [#4976](https://github.com/stdlib-js/stdlib/issues/4976)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-pdf-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/pdf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
 This release closes the following issue:
 
-[#3716](https://github.com/stdlib-js/stdlib/issues/3716)
+[#4976](https://github.com/stdlib-js/stdlib/issues/4976)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-laplace-quantile-unreleased">
+
+#### [@stdlib/stats/base/dists/laplace/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/laplace/quantile)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4976](https://github.com/stdlib-js/stdlib/issues/4976)
 
 </section>
 
@@ -156,9 +372,9 @@ This release closes the following issue:
 
 ##### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3719](https://github.com/stdlib-js/stdlib/issues/3719)
+[#3719](https://github.com/stdlib-js/stdlib/issues/3719), [#4976](https://github.com/stdlib-js/stdlib/issues/4976)
 
 </section>
 
@@ -190,9 +406,9 @@ This release closes the following issue:
 
 ##### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3720](https://github.com/stdlib-js/stdlib/issues/3720)
+[#3720](https://github.com/stdlib-js/stdlib/issues/3720), [#4976](https://github.com/stdlib-js/stdlib/issues/4976)
 
 </section>
 
@@ -246,9 +462,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 7 issues were closed in this release:
+A total of 8 issues were closed in this release:
 
-[#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3709](https://github.com/stdlib-js/stdlib/issues/3709), [#3710](https://github.com/stdlib-js/stdlib/issues/3710), [#3716](https://github.com/stdlib-js/stdlib/issues/3716), [#3719](https://github.com/stdlib-js/stdlib/issues/3719), [#3720](https://github.com/stdlib-js/stdlib/issues/3720), [#3721](https://github.com/stdlib-js/stdlib/issues/3721)
+[#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3709](https://github.com/stdlib-js/stdlib/issues/3709), [#3710](https://github.com/stdlib-js/stdlib/issues/3710), [#3716](https://github.com/stdlib-js/stdlib/issues/3716), [#3719](https://github.com/stdlib-js/stdlib/issues/3719), [#3720](https://github.com/stdlib-js/stdlib/issues/3720), [#3721](https://github.com/stdlib-js/stdlib/issues/3721), [#4976](https://github.com/stdlib-js/stdlib/issues/4976)
 
 </section>
 
@@ -258,9 +474,10 @@ A total of 7 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   GK Bishnoi
 -   Philipp Burckhardt
 -   Pratyush Kumar Chouhan
 -   Vivek Maurya
@@ -275,6 +492,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e5238bb`](https://github.com/stdlib-js/stdlib/commit/e5238bb96b7138d346ea0db8b535aec64c8a856c) - **bench:** refactor random number generation in `stats/base/dists/laplace` [(#5270)](https://github.com/stdlib-js/stdlib/pull/5270) _(by GK Bishnoi)_
 -   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`b9a2014`](https://github.com/stdlib-js/stdlib/commit/b9a2014b1181d30f86aa489ba90ad1f892ade8e8) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`f75a0ce`](https://github.com/stdlib-js/stdlib/commit/f75a0cef6a3112b166dba04c13bada9763cec350) - **chore:** use excess kurtosis consistently _(by Philipp Burckhardt)_
