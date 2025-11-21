@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-11-21)
 
 <section class="features">
 
 ### Features
 
+-   [`bf029f2`](https://github.com/stdlib-js/stdlib/commit/bf029f2cc677cad9bf151320fe400b4f61aa515d) - add C implementation for `stats/base/dists/laplace/mgf` [(#4439)](https://github.com/stdlib-js/stdlib/pull/4439)
 -   [`633dc6b`](https://github.com/stdlib-js/stdlib/commit/633dc6bf08f7c36104492d9d075d12d5ea2ec1af) - add C implementation for `stats/base/dists/laplace/cdf` [(#4440)](https://github.com/stdlib-js/stdlib/pull/4440)
 -   [`09c74b0`](https://github.com/stdlib-js/stdlib/commit/09c74b0526129f32667ef3101c9ccd91acaf924b) - add C implementation for `stats/base/dists/laplace/logcdf` [(#4422)](https://github.com/stdlib-js/stdlib/pull/4422)
 -   [`e6f0da1`](https://github.com/stdlib-js/stdlib/commit/e6f0da1aa09685e99286e1e7efd2b5516d7e40eb) - add C implementation for `stats/base/dists/laplace/quantile` [(#4437)](https://github.com/stdlib-js/stdlib/pull/4437)
@@ -32,9 +33,9 @@
 
 ### Closed Issues
 
-A total of 15 issues were closed in this release:
+A total of 16 issues were closed in this release:
 
-[#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3708](https://github.com/stdlib-js/stdlib/issues/3708), [#3709](https://github.com/stdlib-js/stdlib/issues/3709), [#3710](https://github.com/stdlib-js/stdlib/issues/3710), [#3711](https://github.com/stdlib-js/stdlib/issues/3711), [#3712](https://github.com/stdlib-js/stdlib/issues/3712), [#3713](https://github.com/stdlib-js/stdlib/issues/3713), [#3714](https://github.com/stdlib-js/stdlib/issues/3714), [#3716](https://github.com/stdlib-js/stdlib/issues/3716), [#3717](https://github.com/stdlib-js/stdlib/issues/3717), [#3718](https://github.com/stdlib-js/stdlib/issues/3718), [#3719](https://github.com/stdlib-js/stdlib/issues/3719), [#3720](https://github.com/stdlib-js/stdlib/issues/3720), [#3721](https://github.com/stdlib-js/stdlib/issues/3721), [#4976](https://github.com/stdlib-js/stdlib/issues/4976)
+[#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3708](https://github.com/stdlib-js/stdlib/issues/3708), [#3709](https://github.com/stdlib-js/stdlib/issues/3709), [#3710](https://github.com/stdlib-js/stdlib/issues/3710), [#3711](https://github.com/stdlib-js/stdlib/issues/3711), [#3712](https://github.com/stdlib-js/stdlib/issues/3712), [#3713](https://github.com/stdlib-js/stdlib/issues/3713), [#3714](https://github.com/stdlib-js/stdlib/issues/3714), [#3715](https://github.com/stdlib-js/stdlib/issues/3715), [#3716](https://github.com/stdlib-js/stdlib/issues/3716), [#3717](https://github.com/stdlib-js/stdlib/issues/3717), [#3718](https://github.com/stdlib-js/stdlib/issues/3718), [#3719](https://github.com/stdlib-js/stdlib/issues/3719), [#3720](https://github.com/stdlib-js/stdlib/issues/3720), [#3721](https://github.com/stdlib-js/stdlib/issues/3721), [#4976](https://github.com/stdlib-js/stdlib/issues/4976)
 
 </section>
 
@@ -46,6 +47,19 @@ A total of 15 issues were closed in this release:
 
 <details>
 
+-   [`9b13062`](https://github.com/stdlib-js/stdlib/commit/9b130625f0f19866a877023e9be85204636ef01e) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
+-   [`5bbd209`](https://github.com/stdlib-js/stdlib/commit/5bbd209871c06aaf7d6347c6eb7696af6128ee1a) - **docs:** replace manual `for` loop in examples [(#8257)](https://github.com/stdlib-js/stdlib/pull/8257) _(by Harsh Yadav)_
+-   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
+-   [`e678757`](https://github.com/stdlib-js/stdlib/commit/e678757c9a62631a907278ec13a5d7b27c0f1e15) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`8ea46b6`](https://github.com/stdlib-js/stdlib/commit/8ea46b662dc6e27231d250d101e33a3cf770cd77) - **test:** update descriptions to match language used in JS tests _(by Philipp Burckhardt)_
+-   [`83af59d`](https://github.com/stdlib-js/stdlib/commit/83af59de17b7e0db3d95fb5959ec0f38cf63c88e) - **test:** increase needed tolerances for tests to pass _(by Philipp Burckhardt)_
+-   [`7e24b8b`](https://github.com/stdlib-js/stdlib/commit/7e24b8ba0fff87a56584bb1a2fa106eb88267596) - **test:** slightly increase tolerances for passing tests _(by Philipp Burckhardt)_
+-   [`bf029f2`](https://github.com/stdlib-js/stdlib/commit/bf029f2cc677cad9bf151320fe400b4f61aa515d) - **feat:** add C implementation for `stats/base/dists/laplace/mgf` [(#4439)](https://github.com/stdlib-js/stdlib/pull/4439) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`537c0b7`](https://github.com/stdlib-js/stdlib/commit/537c0b725bd2b88896325aea1e23239e686e8ad5) - **chore:** clean-up _(by Athan Reines)_
 -   [`40461dd`](https://github.com/stdlib-js/stdlib/commit/40461dd76cbee9a76b650f13c5c064be38b2096d) - **chore:** clean-up _(by Athan Reines)_
 -   [`0f61a64`](https://github.com/stdlib-js/stdlib/commit/0f61a6495d50e9e33e4783502a78f93e5bc4144e) - **chore:** clean-up _(by Athan Reines)_
@@ -64,7 +78,7 @@ A total of 15 issues were closed in this release:
 -   [`37149a9`](https://github.com/stdlib-js/stdlib/commit/37149a9e5d2b01c61bb6d6f183fefc8c9f19c516) - **feat:** add C implementation for `stats/base/dists/laplace/median` [(#3997)](https://github.com/stdlib-js/stdlib/pull/3997) _(by Divyansh Seth, Philipp Burckhardt, stdlib-bot)_
 -   [`aee7cdf`](https://github.com/stdlib-js/stdlib/commit/aee7cdf55bfc137e4dd82e0118d299825ba05895) - **feat:** add C implementation for `stats/base/dists/laplace/mean` [(#3993)](https://github.com/stdlib-js/stdlib/pull/3993) _(by Divyansh Seth, Philipp Burckhardt, stdlib-bot)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
--   [`e5238bb`](https://github.com/stdlib-js/stdlib/commit/e5238bb96b7138d346ea0db8b535aec64c8a856c) - **bench:** refactor random number generation in `stats/base/dists/laplace` [(#5270)](https://github.com/stdlib-js/stdlib/pull/5270) _(by GK Bishnoi)_
+-   [`e5238bb`](https://github.com/stdlib-js/stdlib/commit/e5238bb96b7138d346ea0db8b535aec64c8a856c) - **bench:** refactor random number generation in `stats/base/dists/laplace` [(#5270)](https://github.com/stdlib-js/stdlib/pull/5270) _(by Gopi Kishan)_
 -   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`b9a2014`](https://github.com/stdlib-js/stdlib/commit/b9a2014b1181d30f86aa489ba90ad1f892ade8e8) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`f75a0ce`](https://github.com/stdlib-js/stdlib/commit/f75a0cef6a3112b166dba04c13bada9763cec350) - **chore:** use excess kurtosis consistently _(by Philipp Burckhardt)_
@@ -91,13 +105,14 @@ A total of 15 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
 -   Dhruv Arvind Singh
 -   Divyansh Seth
--   GK Bishnoi
+-   Gopi Kishan
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 -   Pratyush Kumar Chouhan
