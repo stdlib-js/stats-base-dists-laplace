@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-laplace/tags). For example,
+
+```javascript
 import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Laplace, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@v0.3.0-esm/index.mjs';
+import { Laplace, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@esm/index.mjs';
 ```
 
 #### laplace
@@ -135,7 +140,7 @@ var y = dist.cdf( 0.5 );
 <body>
 <script type="module">
 
-import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@v0.3.0-esm/index.mjs';
+import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@esm/index.mjs';
 
 var dist = new laplace.Laplace( 4.0, 2.0 );
 
