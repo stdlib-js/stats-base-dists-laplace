@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@deno/mod.js';
+import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Laplace, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@deno/mod.js';
+import { Laplace, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@v0.3.0-deno/mod.js';
 ```
 
 #### laplace
@@ -130,7 +130,7 @@ var y = dist.cdf( 0.5 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@deno/mod.js';
+import laplace from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace@v0.3.0-deno/mod.js';
 
 var dist = new laplace.Laplace( 4.0, 2.0 );
 
