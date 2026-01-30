@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-12-02)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
@@ -33,9 +33,9 @@
 
 ### Closed Issues
 
-A total of 16 issues were closed in this release:
+A total of 17 issues were closed in this release:
 
-[#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3708](https://github.com/stdlib-js/stdlib/issues/3708), [#3709](https://github.com/stdlib-js/stdlib/issues/3709), [#3710](https://github.com/stdlib-js/stdlib/issues/3710), [#3711](https://github.com/stdlib-js/stdlib/issues/3711), [#3712](https://github.com/stdlib-js/stdlib/issues/3712), [#3713](https://github.com/stdlib-js/stdlib/issues/3713), [#3714](https://github.com/stdlib-js/stdlib/issues/3714), [#3715](https://github.com/stdlib-js/stdlib/issues/3715), [#3716](https://github.com/stdlib-js/stdlib/issues/3716), [#3717](https://github.com/stdlib-js/stdlib/issues/3717), [#3718](https://github.com/stdlib-js/stdlib/issues/3718), [#3719](https://github.com/stdlib-js/stdlib/issues/3719), [#3720](https://github.com/stdlib-js/stdlib/issues/3720), [#3721](https://github.com/stdlib-js/stdlib/issues/3721), [#4976](https://github.com/stdlib-js/stdlib/issues/4976)
+[#1633](https://github.com/stdlib-js/stdlib/issues/1633), [#3708](https://github.com/stdlib-js/stdlib/issues/3708), [#3709](https://github.com/stdlib-js/stdlib/issues/3709), [#3710](https://github.com/stdlib-js/stdlib/issues/3710), [#3711](https://github.com/stdlib-js/stdlib/issues/3711), [#3712](https://github.com/stdlib-js/stdlib/issues/3712), [#3713](https://github.com/stdlib-js/stdlib/issues/3713), [#3714](https://github.com/stdlib-js/stdlib/issues/3714), [#3715](https://github.com/stdlib-js/stdlib/issues/3715), [#3716](https://github.com/stdlib-js/stdlib/issues/3716), [#3717](https://github.com/stdlib-js/stdlib/issues/3717), [#3718](https://github.com/stdlib-js/stdlib/issues/3718), [#3719](https://github.com/stdlib-js/stdlib/issues/3719), [#3720](https://github.com/stdlib-js/stdlib/issues/3720), [#3721](https://github.com/stdlib-js/stdlib/issues/3721), [#4976](https://github.com/stdlib-js/stdlib/issues/4976), [#9567](https://github.com/stdlib-js/stdlib/issues/9567)
 
 </section>
 
@@ -47,6 +47,10 @@ A total of 16 issues were closed in this release:
 
 <details>
 
+-   [`ce2a193`](https://github.com/stdlib-js/stdlib/commit/ce2a1930b7c0014fd2404c7cf5f7a90f44e9f6fa) - **test:** remove duplicate test cases in `stats/base/dists/laplace` packages _(by Philipp Burckhardt)_
+-   [`a6b5609`](https://github.com/stdlib-js/stdlib/commit/a6b5609b1e8e92ec33fda5874e3c03c9e3e571c6) - **bench:** update random value generation [(#9745)](https://github.com/stdlib-js/stdlib/pull/9745) _(by Harsh Yadav)_
+-   [`e5d2034`](https://github.com/stdlib-js/stdlib/commit/e5d203481f08ab2ecbdc7a4dbfe36462736cb7e7) - **bench:** update random value generation [(#9746)](https://github.com/stdlib-js/stdlib/pull/9746) _(by Harsh Yadav)_
+-   [`a7a77a7`](https://github.com/stdlib-js/stdlib/commit/a7a77a7ba28bc0f55275db3a77a0117f0679b317) - **test:** remove duplicate NaN test cases in normal mean [(#9588)](https://github.com/stdlib-js/stdlib/pull/9588) _(by Suyash Pathak)_
 -   [`88fe77a`](https://github.com/stdlib-js/stdlib/commit/88fe77a2f059149b803f51d1a787894c7670798b) - **docs:** fix example code in namespace TypeScript declarations _(by Philipp Burckhardt)_
 -   [`9b13062`](https://github.com/stdlib-js/stdlib/commit/9b130625f0f19866a877023e9be85204636ef01e) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
 -   [`5bbd209`](https://github.com/stdlib-js/stdlib/commit/5bbd209871c06aaf7d6347c6eb7696af6128ee1a) - **docs:** replace manual `for` loop in examples [(#8257)](https://github.com/stdlib-js/stdlib/pull/8257) _(by Harsh Yadav)_
@@ -106,7 +110,7 @@ A total of 16 issues were closed in this release:
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 11 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
@@ -117,6 +121,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 -   Karan Anand
 -   Philipp Burckhardt
 -   Pratyush Kumar Chouhan
+-   Suyash Pathak
 -   Vivek Maurya
 
 </section>
