@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-27)
+## Unreleased (2026-09-15)
 
 <section class="commits">
 
@@ -12,6 +12,19 @@
 
 <details>
 
+-   [`e19d242`](https://github.com/stdlib-js/stdlib/commit/e19d2427513055388fccc2680607d2aa042c59bd) - **test:** migrate `stats/base/dists/laplace/quantile` to ULP-based assertions [(#15083)](https://github.com/stdlib-js/stdlib/pull/15083) _(by Aryan kumar)_
+-   [`e2f9601`](https://github.com/stdlib-js/stdlib/commit/e2f9601a0e87d3b23679ff002e56ae92ae2eda55) - **test:** migrate `stats/base/dists/laplace/skewness` to ULP-based assertions [(#15049)](https://github.com/stdlib-js/stdlib/pull/15049) _(by Aryan kumar, Athan Reines)_
+-   [`3fec0be`](https://github.com/stdlib-js/stdlib/commit/3fec0be3388e3789a5cb358ad575aec78b38c189) - **test:** migrate `stats/base/dists/laplace/variance` to ULP-based assertions [(#15019)](https://github.com/stdlib-js/stdlib/pull/15019) _(by Aryan kumar, Athan Reines)_
+-   [`9c93332`](https://github.com/stdlib-js/stdlib/commit/9c93332b944c7c628248ec9d1ac2626798767c9a) - **test:** migrate `stats/base/dists/laplace/entropy` to ULP-based assertions [(#15012)](https://github.com/stdlib-js/stdlib/pull/15012) _(by Aryan kumar)_
+-   [`def7690`](https://github.com/stdlib-js/stdlib/commit/def76902311333b89659b7be916534a7c8f5420a) - **test:** migrate `stats/base/dists/laplace/stdev` to ULP-based assertions [(#14910)](https://github.com/stdlib-js/stdlib/pull/14910) _(by Athan Reines)_
+-   [`f33263d`](https://github.com/stdlib-js/stdlib/commit/f33263d359a8f1e1715f56190f0cb9d415f2dc38) - **test:** migrate `stats/base/dists/laplace/cdf` to ULP-based assertions [(#14744)](https://github.com/stdlib-js/stdlib/pull/14744) _(by Philipp Burckhardt)_
+-   [`d66834d`](https://github.com/stdlib-js/stdlib/commit/d66834daffc363b65da036badf839285a1c47a0f) - **test:** migrate `stats/base/dists/laplace/logpdf` to ULP-based assertions [(#14673)](https://github.com/stdlib-js/stdlib/pull/14673) _(by Athan Reines)_
+-   [`54e9b8a`](https://github.com/stdlib-js/stdlib/commit/54e9b8adbd51bbc8e157c7ba8d086e7e8d50349b) - **test:** migrate `stats/base/dists/laplace/kurtosis` to ULP-based assertions [(#14493)](https://github.com/stdlib-js/stdlib/pull/14493) _(by Athan Reines)_
+-   [`a307979`](https://github.com/stdlib-js/stdlib/commit/a307979b1b2c93a7d5e3eead5e2dfc1112066525) - **test:** migrate `stats/base/dists/laplace/mode` to ULP-based assertions [(#14295)](https://github.com/stdlib-js/stdlib/pull/14295) _(by Athan Reines)_
+-   [`0ede2c6`](https://github.com/stdlib-js/stdlib/commit/0ede2c6542bc507b9fdab60f997ee447a0fab893) - **test:** migrate `stats/base/dists/laplace/mgf` to ULP-based assertions [(#14223)](https://github.com/stdlib-js/stdlib/pull/14223) _(by Athan Reines)_
+-   [`5822b6f`](https://github.com/stdlib-js/stdlib/commit/5822b6fa524f9619c806cc21e0ed033c23c304af) - **test:** migrate `stats/base/dists/laplace/pdf` to ULP-based assertions [(#14213)](https://github.com/stdlib-js/stdlib/pull/14213) _(by Athan Reines)_
+-   [`a2e365c`](https://github.com/stdlib-js/stdlib/commit/a2e365c213841d741b3c69533efc5cfaaa8212e0) - **test:** migrate `stats/base/dists/laplace/logcdf` to ULP-based assertions [(#14141)](https://github.com/stdlib-js/stdlib/pull/14141) _(by Athan Reines)_
+-   [`c5d65b1`](https://github.com/stdlib-js/stdlib/commit/c5d65b14d15dd90690666291af0ae6550d50c6d2) - **chore:** clean-up [(#13725)](https://github.com/stdlib-js/stdlib/pull/13725) _(by Philipp Burckhardt, Athan Reines)_
 -   [`4a0c3be`](https://github.com/stdlib-js/stdlib/commit/4a0c3be4719f713b69a8ff6b66cc3b0573bf4444) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`f25221d`](https://github.com/stdlib-js/stdlib/commit/f25221d5fcb5e84cb0ad4951db6f08f254c12d15) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`2cee50a`](https://github.com/stdlib-js/stdlib/commit/2cee50a75da1437551b91682b8785dbae8ab897f) - **docs:** update Markdown equation elements [(#13547)](https://github.com/stdlib-js/stdlib/pull/13547) _(by stdlib-bot, Athan Reines)_
@@ -36,8 +49,9 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
 -   Athan Reines
 -   Philipp Burckhardt
 -   Vishal Gaikwad
